@@ -4,6 +4,8 @@
 
 package com.mycompany.canine_hair_salon;
 
+import com.mycompany.canine_hair_salon.igu.Principal;
+
 /**
  *
  * @author Daya
@@ -11,6 +13,9 @@ package com.mycompany.canine_hair_salon;
 public class Canine_hair_salon {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Principal Princ = new Principal();
+        Princ.setVisible(true);
+        Princ.setLocationRelativeTo(null);
+        
     }
 }
